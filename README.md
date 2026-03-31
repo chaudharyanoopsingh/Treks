@@ -745,9 +745,9 @@
 
   <div class="hero-carousel" id="heroCarousel">
     <div class="hero-slide active">
-      <div class="hero-slide-placeholder" style="background:linear-gradient(160deg,#5c3a2a,#2e1a10)">
-        <span class="ph-label">Kedarnath</span>
-        <span class="ph-elev">3,583 m · Rudraprayag · Panch Kedar I</span>
+      <div class="hero-slide-placeholder" style="background:linear-gradient(160deg,#4a6e3a,#1e3416)">
+        <span class="ph-label">Rudranath Trek</span>
+        <span class="ph-elev">2,286 m · Chamoli · Panch Kedar III</span>
       </div>
     </div>
     <div class="hero-slide">
