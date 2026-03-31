@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Swati Choudhary — Indian Treks</title>
+  <title>Swati Choudhary — Uttarakhand Sacred Treks</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -701,13 +701,13 @@
 <!-- Loader -->
 <div id="loader">
   <div id="loader-title">Sw<span>a</span>ti</div>
-  <div id="loader-subtitle">Indian Treks</div>
+  <div id="loader-subtitle">Sacred Treks · Uttarakhand</div>
   <div id="loader-bar-wrap"><div id="loader-bar"></div></div>
 </div>
 
 <!-- Navigation -->
 <nav id="navbar">
-  <div class="nav-logo">Sw<span>a</span>ti <small style="font-style:normal; font-size:.6em; letter-spacing:.05em; opacity:.5;">— Indian Treks</small></div>
+  <div class="nav-logo">Sw<span>a</span>ti <small style="font-style:normal; font-size:.6em; letter-spacing:.05em; opacity:.5;">— Sacred Treks</small></div>
   <div class="nav-links">
     <a href="#work" class="active">Treks</a>
     <span class="nav-divider">/</span>
@@ -731,53 +731,53 @@
 <!-- Hero -->
 <section id="hero">
   <div class="hero-corner tl reveal">
-    Into the<br/>mountains<span>India's Trails</span>
+    Dev<br/>Bhoomi<span>Land of Gods</span>
   </div>
   <div class="hero-corner tr reveal reveal-delay-1">
-    Peaks &amp;<br/>valleys<span>Himalayan Life</span>
+    Shrines &amp;<br/>summits<span>Uttarakhand Treks</span>
   </div>
   <div class="hero-corner bl reveal reveal-delay-2">
     Swati<br/>Choudhary<span>Est. 2018</span>
   </div>
   <div class="hero-corner br reveal reveal-delay-3">
-    Based in<br/>India<span>Roaming the Himalayas</span>
+    Based in<br/>India<span>Panch Kedar · Panch Kailash</span>
   </div>
 
   <div class="hero-carousel" id="heroCarousel">
     <div class="hero-slide active">
+      <div class="hero-slide-placeholder" style="background:linear-gradient(160deg,#5c3a2a,#2e1a10)">
+        <span class="ph-label">Kedarnath</span>
+        <span class="ph-elev">3,583 m · Rudraprayag · Panch Kedar I</span>
+      </div>
+    </div>
+    <div class="hero-slide">
       <div class="hero-slide-placeholder" style="background:linear-gradient(160deg,#3d5e35,#1e3319)">
-        <span class="ph-label">Roopkund Trek</span>
-        <span class="ph-elev">5,029 m · Uttarakhand</span>
+        <span class="ph-label">Tungnath</span>
+        <span class="ph-elev">3,680 m · Rudraprayag · Panch Kedar II</span>
       </div>
     </div>
     <div class="hero-slide">
       <div class="hero-slide-placeholder" style="background:linear-gradient(160deg,#4a6e6e,#1f3a3a)">
-        <span class="ph-label">Valley of Flowers</span>
-        <span class="ph-elev">3,658 m · Uttarakhand</span>
+        <span class="ph-label">Adi Kailash</span>
+        <span class="ph-elev">6,191 m · Pithoragarh · Panch Kailash I</span>
       </div>
     </div>
     <div class="hero-slide">
-      <div class="hero-slide-placeholder" style="background:linear-gradient(160deg,#7a5c3a,#3d2a18)">
-        <span class="ph-label">Hampta Pass</span>
-        <span class="ph-elev">4,270 m · Himachal Pradesh</span>
+      <div class="hero-slide-placeholder" style="background:linear-gradient(160deg,#6a4a20,#341e08)">
+        <span class="ph-label">Kartik Swami Temple</span>
+        <span class="ph-elev">3,048 m · Rudraprayag · Latest Trek</span>
       </div>
     </div>
     <div class="hero-slide">
-      <div class="hero-slide-placeholder" style="background:linear-gradient(160deg,#5e4a6a,#2a1e38)">
-        <span class="ph-label">Kedarkantha</span>
-        <span class="ph-elev">3,810 m · Uttarakhand</span>
-      </div>
-    </div>
-    <div class="hero-slide">
-      <div class="hero-slide-placeholder" style="background:linear-gradient(160deg,#3a5e5a,#1a2e2c)">
-        <span class="ph-label">Sandakphu</span>
-        <span class="ph-elev">3,636 m · West Bengal</span>
+      <div class="hero-slide-placeholder" style="background:linear-gradient(160deg,#3a3e6a,#141830)">
+        <span class="ph-label">Vaishno Devi</span>
+        <span class="ph-elev">1,560 m · Jammu · Pilgrimage</span>
       </div>
     </div>
     <div class="hero-dots" id="heroDots"></div>
   </div>
 
-  <div class="hero-tagline">One trail at a time — Exploring India's wildest paths</div>
+  <div class="hero-tagline">One shrine at a time — Walking the sacred paths of Dev Bhoomi</div>
 </section>
 
 <!-- Scroll Indicator -->
@@ -788,9 +788,9 @@
 
 <!-- Treks -->
 <section id="work">
-  <div class="section-label reveal">All Expeditions</div>
+  <div class="section-label reveal">Panch Kedar · Panch Kailash · Sacred Pilgrimages</div>
   <div style="display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:16px;">
-    <h2 class="section-title reveal reveal-delay-1">Indian<br/><em>Treks</em></h2>
+    <h2 class="section-title reveal reveal-delay-1">Sacred<br/><em>Treks</em></h2>
     <div class="view-toggle reveal reveal-delay-2">
       <button class="toggle-btn active" onclick="setView('grid')">Grid</button>
       <button class="toggle-btn" onclick="setView('list')">List</button>
@@ -807,11 +807,11 @@
 <!-- Manifesto -->
 <section id="manifesto">
   <p class="manifesto-text reveal">
-    "The mountains are not stadiums where I satisfy my ambition to achieve.
-    They are cathedrals where I practice my <em>religion</em> —
-    and every trail through India is a verse of that <em>devotion</em>."
+    "Every step on these paths is not just a trek —
+    it is a <em>prayer</em>. Uttarakhand's shrines do not ask you to be strong;
+    they ask you to be <em>present</em>."
   </p>
-  <p class="manifesto-attr reveal reveal-delay-1">— Swati Choudhary, Trekker</p>
+  <p class="manifesto-attr reveal reveal-delay-1">— Swati Choudhary, Pilgrim Trekker</p>
 </section>
 
 <!-- About -->
@@ -819,62 +819,63 @@
   <div class="section-label reveal">About Swati</div>
   <div class="about-grid">
     <div>
-      <h2 class="section-title reveal">A life lived<br/>on <em>high trails</em></h2>
+      <h2 class="section-title reveal">Walking the<br/><em>Dev Bhoomi</em></h2>
       <div class="about-body reveal reveal-delay-1">
         <p>
-          I'm Swati Choudhary — a passionate trekker, storyteller, and nature lover
-          who has spent years exploring the <strong>diverse mountain landscapes of India</strong>.
-          From the rhododendron forests of Uttarakhand to the stark high-altitude deserts
-          of Ladakh, every trail has been a chapter of my life.
+          I'm Swati Choudhary — a pilgrim trekker devoted to the sacred mountains
+          of <strong>Uttarakhand, the Land of Gods</strong>. My journeys take me through
+          ancient temple routes — the five shrines of the Panch Kedar, the mystical peaks
+          of the Panch Kailash, and hidden hilltop sanctuaries like Kartik Swami.
         </p>
         <p>
-          Trekking, for me, is not just about reaching summits. It is about the
-          <strong>slow unfolding of landscape</strong>, the rhythm of breath at altitude,
-          the warmth of a chai at a dhaba, and the silence that only mountains can offer.
+          Each trek is a blend of physical challenge and <strong>spiritual seeking</strong>.
+          Whether it is the bell echoing at Tungnath at dawn, the snow-dusted trail
+          to Kedarnath, or the silence of Om Parvat, every path teaches something
+          that no road can.
         </p>
         <p>
-          Through this journal, I share the routes I've walked, the camps I've slept in,
-          and the people I've met along the way — so you can plan your own journey into
-          the wild heart of India.
+          My latest trek was to <strong>Kartik Swami Temple</strong> in Rudraprayag —
+          a lesser-known gem perched at 3,048 m with sweeping views of Chaukhamba
+          and Kedarnath peaks. This journal is my offering back to these mountains.
         </p>
       </div>
       <div class="about-stats reveal reveal-delay-2">
         <div class="stat">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Panch Kedar</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Panch Kailash</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">20+</div>
+          <div class="stat-label">Shrines Visited</div>
+        </div>
+        <div class="stat">
           <div class="stat-num">6+</div>
-          <div class="stat-label">Years Trekking</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">40+</div>
-          <div class="stat-label">Treks Completed</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">12</div>
-          <div class="stat-label">Indian States</div>
-        </div>
-        <div class="stat">
-          <div class="stat-num">5K+</div>
-          <div class="stat-label">Km on Trail</div>
+          <div class="stat-label">Years on Trail</div>
         </div>
       </div>
       <div class="tools-list reveal reveal-delay-3">
-        <span class="tool-tag">Himachal Pradesh</span>
-        <span class="tool-tag">Uttarakhand</span>
-        <span class="tool-tag">Ladakh</span>
-        <span class="tool-tag">Sikkim</span>
-        <span class="tool-tag">West Bengal</span>
-        <span class="tool-tag">Kashmir</span>
-        <span class="tool-tag">Arunachal</span>
+        <span class="tool-tag">Panch Kedar</span>
+        <span class="tool-tag">Panch Kailash</span>
+        <span class="tool-tag">Rudraprayag</span>
+        <span class="tool-tag">Chamoli</span>
+        <span class="tool-tag">Pithoragarh</span>
+        <span class="tool-tag">Kartik Swami</span>
+        <span class="tool-tag">Vaishno Devi</span>
       </div>
     </div>
     <div class="about-photo-stack reveal reveal-delay-1">
       <div class="ph-block">
-        <div class="ph-block-inner" style="background:linear-gradient(160deg,rgba(74,103,65,.35),rgba(30,51,25,.5));">At basecamp, Roopkund</div>
+        <div class="ph-block-inner" style="background:linear-gradient(160deg,rgba(92,58,42,.4),rgba(46,26,16,.6));">At Kedarnath Temple</div>
       </div>
       <div class="ph-block">
-        <div class="ph-block-inner" style="background:linear-gradient(160deg,rgba(74,110,110,.3),rgba(30,58,58,.4));">Valley of Flowers</div>
+        <div class="ph-block-inner" style="background:linear-gradient(160deg,rgba(61,94,53,.35),rgba(30,51,25,.5));">Tungnath at dawn</div>
       </div>
       <div class="ph-block">
-        <div class="ph-block-inner" style="background:linear-gradient(160deg,rgba(122,92,58,.3),rgba(61,42,24,.4));">Hampta crossings</div>
+        <div class="ph-block-inner" style="background:linear-gradient(160deg,rgba(122,78,32,.3),rgba(60,34,8,.4));">Kartik Swami summit</div>
       </div>
     </div>
   </div>
@@ -886,11 +887,12 @@
   <div class="contact-inner">
     <div>
       <h2 class="contact-cta reveal">
-        Let's explore<br/>the trails<br/><em>together</em>.
+        Walk the<br/>sacred paths<br/><em>with me</em>.
       </h2>
       <p style="margin-top:24px; opacity:.55; font-size:.9rem; line-height:1.7;" class="reveal reveal-delay-1">
-        Open to trek partnerships, collaborations,<br/>
-        trail guides, and sharing route knowledge.
+        Open to trek planning, pilgrim partnerships,<br/>
+        route advice for Panch Kedar &amp; Panch Kailash,<br/>
+        and sharing stories from Dev Bhoomi.
       </p>
       <p style="margin-top:20px; font-size:.8rem; letter-spacing:.12em; opacity:.4; text-transform:uppercase;" class="reveal reveal-delay-2">
         swati.choudhary@gmail.com
@@ -907,7 +909,7 @@
       </div>
       <div class="form-field">
         <label>Message</label>
-        <textarea placeholder="Tell me which trek you're dreaming of..." rows="4"></textarea>
+        <textarea placeholder="Which shrine or trail are you drawn to?..." rows="4"></textarea>
       </div>
       <button class="btn-send" type="submit"><span>Send Message</span></button>
     </form>
@@ -931,10 +933,10 @@
       <a href="#">YouTube</a>
     </div>
     <div class="footer-col">
-      <div class="footer-col-title">Regions</div>
-      <a href="#">Himachal Pradesh</a>
-      <a href="#">Uttarakhand</a>
-      <a href="#">Ladakh & Kashmir</a>
+      <div class="footer-col-title">Trek Series</div>
+      <a href="#">Panch Kedar</a>
+      <a href="#">Panch Kailash</a>
+      <a href="#">Pilgrimages</a>
     </div>
   </div>
   <div class="footer-bottom">
@@ -946,17 +948,21 @@
 <script>
   /* ── Trek Data ── */
   const projects = [
-    { name: 'Roopkund',          loc: 'Uttarakhand',        elev: '5,029 m', diff: 'Difficult',  color: 'linear-gradient(160deg,#3d5e35,#1e3319)' },
-    { name: 'Valley of Flowers', loc: 'Uttarakhand',        elev: '3,658 m', diff: 'Moderate',   color: 'linear-gradient(160deg,#4a7a4a,#24432a)' },
-    { name: 'Hampta Pass',       loc: 'Himachal Pradesh',   elev: '4,270 m', diff: 'Moderate',   color: 'linear-gradient(160deg,#7a5c3a,#3d2a18)' },
-    { name: 'Kedarkantha',       loc: 'Uttarakhand',        elev: '3,810 m', diff: 'Easy',       color: 'linear-gradient(160deg,#5e4a6a,#2a1e38)' },
-    { name: 'Sandakphu',         loc: 'West Bengal',        elev: '3,636 m', diff: 'Moderate',   color: 'linear-gradient(160deg,#3a5e5a,#1a2e2c)' },
-    { name: 'Chadar Trek',       loc: 'Ladakh',             elev: '3,200 m', diff: 'Difficult',  color: 'linear-gradient(160deg,#4a607a,#1e2c3a)' },
-    { name: 'Goecha La',         loc: 'Sikkim',             elev: '4,940 m', diff: 'Difficult',  color: 'linear-gradient(160deg,#3e6e56,#1a3228)' },
-    { name: 'Pin Parvati Pass',  loc: 'Himachal Pradesh',   elev: '5,319 m', diff: 'Very Hard',  color: 'linear-gradient(160deg,#6a4a3a,#30201a)' },
-    { name: 'Tarsar Marsar',     loc: 'Kashmir',            elev: '4,100 m', diff: 'Moderate',   color: 'linear-gradient(160deg,#4a6a7a,#1e3040)' },
-    { name: 'Har Ki Dun',        loc: 'Uttarakhand',        elev: '3,566 m', diff: 'Easy',       color: 'linear-gradient(160deg,#5a6a3a,#283018)' },
-    { name: 'Stok Kangri',       loc: 'Ladakh',             elev: '6,153 m', diff: 'Extreme',    color: 'linear-gradient(160deg,#3a4a6a,#141c30)' },
+    // ── Panch Kedar ──────────────────────────────────────────────
+    { name: 'Kedarnath',          loc: 'Rudraprayag, Uttarakhand',  elev: '3,583 m', diff: 'Moderate',  series: 'Panch Kedar I',   color: 'linear-gradient(160deg,#5c3a2a,#2e1a10)' },
+    { name: 'Tungnath',           loc: 'Rudraprayag, Uttarakhand',  elev: '3,680 m', diff: 'Easy',       series: 'Panch Kedar II',  color: 'linear-gradient(160deg,#3d5e35,#1e3319)' },
+    { name: 'Rudranath',          loc: 'Chamoli, Uttarakhand',      elev: '2,286 m', diff: 'Difficult',  series: 'Panch Kedar III', color: 'linear-gradient(160deg,#4a6e3a,#1e3416)' },
+    { name: 'Madhyamaheshwar',    loc: 'Rudraprayag, Uttarakhand',  elev: '3,497 m', diff: 'Moderate',   series: 'Panch Kedar IV',  color: 'linear-gradient(160deg,#6a4a3a,#30201a)' },
+    { name: 'Kalpeshwar',         loc: 'Chamoli, Uttarakhand',      elev: '2,200 m', diff: 'Easy',       series: 'Panch Kedar V',   color: 'linear-gradient(160deg,#3e5e6e,#1a2c36)' },
+    // ── Panch Kailash ────────────────────────────────────────────
+    { name: 'Adi Kailash',        loc: 'Pithoragarh, Uttarakhand',  elev: '6,191 m', diff: 'Difficult',  series: 'Panch Kailash I',  color: 'linear-gradient(160deg,#4a607a,#1e2c3a)' },
+    { name: 'Om Parvat',          loc: 'Pithoragarh, Uttarakhand',  elev: '6,191 m', diff: 'Difficult',  series: 'Panch Kailash II', color: 'linear-gradient(160deg,#3a4a6a,#141c30)' },
+    { name: 'Shrikhand Mahadev',  loc: 'Kullu, Himachal Pradesh',   elev: '5,155 m', diff: 'Very Hard',  series: 'Panch Kailash III',color: 'linear-gradient(160deg,#5e3a6a,#2a1430)' },
+    { name: 'Kinnaur Kailash',    loc: 'Kinnaur, Himachal Pradesh', elev: '6,050 m', diff: 'Very Hard',  series: 'Panch Kailash IV', color: 'linear-gradient(160deg,#3a3e6a,#141828)' },
+    { name: 'Mani Mahesh',        loc: 'Chamba, Himachal Pradesh',  elev: '5,653 m', diff: 'Difficult',  series: 'Panch Kailash V',  color: 'linear-gradient(160deg,#3e6e6e,#1a2e30)' },
+    // ── Pilgrimages ───────────────────────────────────────────────
+    { name: 'Vaishno Devi',       loc: 'Reasi, Jammu',              elev: '1,560 m', diff: 'Easy',       series: 'Pilgrimage',       color: 'linear-gradient(160deg,#3a3e6a,#14183a)' },
+    { name: 'Kartik Swami',       loc: 'Rudraprayag, Uttarakhand',  elev: '3,048 m', diff: 'Moderate',   series: 'Latest Trek ✦',    color: 'linear-gradient(160deg,#7a4e20,#3c2208)' },
   ];
 
   /* ── Build Gallery ── */
@@ -971,9 +977,9 @@
     item.innerHTML = `
       <div class="g-placeholder" style="background:${p.color}"></div>
       <div class="g-info">
-        <div class="g-badge">${p.diff} · ${p.elev}</div>
+        <div class="g-badge">${p.series} · ${p.diff}</div>
         <div class="g-name">${p.name}</div>
-        <div class="g-meta">${p.loc}</div>
+        <div class="g-meta">${p.elev} · ${p.loc}</div>
       </div>`;
     grid.appendChild(item);
 
@@ -982,8 +988,8 @@
     li.className = 'list-item reveal';
     li.innerHTML = `
       <div class="list-thumb-placeholder" style="background:${p.color}; width:80px; height:60px;"></div>
-      <div class="list-title">${p.name}<br/><small style="font-size:.7rem; font-family:var(--font-body); font-style:normal; opacity:.45; letter-spacing:.08em;">${p.loc} · ${p.elev} · ${p.diff}</small></div>
-      <div class="list-num">0${i + 1}</div>`;
+      <div class="list-title">${p.name}<br/><small style="font-size:.7rem; font-family:var(--font-body); font-style:normal; opacity:.45; letter-spacing:.08em;">${p.series} · ${p.elev} · ${p.loc}</small></div>
+      <div class="list-num">${String(i + 1).padStart(2, '0')}</div>`;
     list.appendChild(li);
   });
 
