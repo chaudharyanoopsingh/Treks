@@ -519,74 +519,54 @@
       opacity: .4;
     }
 
-    /* ─── Contact ────────────────────────────────────────────────── */
-    #contact { background: var(--bg); }
-    .contact-inner {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 80px;
-      align-items: center;
-    }
-    .contact-cta {
-      font-family: var(--font-display);
-      font-size: clamp(2rem, 4.5vw, 4rem);
-      font-weight: 300;
-      line-height: 1.15;
-    }
-    .contact-cta em { color: var(--accent); font-style: italic; }
-    .contact-form { display: flex; flex-direction: column; gap: 20px; }
-    .form-field {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-    .form-field label {
-      font-size: .68rem;
-      letter-spacing: .15em;
-      text-transform: uppercase;
-      opacity: .5;
-    }
-    .form-field input,
-    .form-field textarea {
-      background: none;
-      border: none;
-      border-bottom: 1px solid rgba(44,50,37,.25);
-      padding: 10px 0;
-      font-family: var(--font-body);
-      font-size: .95rem;
-      color: var(--text);
-      outline: none;
-      resize: none;
-      transition: border-color .25s;
-    }
-    .form-field input:focus,
-    .form-field textarea:focus { border-color: var(--text); }
-    .form-field textarea { min-height: 80px; }
-    .btn-send {
-      align-self: flex-start;
-      padding: 14px 32px;
-      background: var(--text);
-      color: var(--bg);
-      font-family: var(--font-body);
-      font-size: .72rem;
-      letter-spacing: .2em;
-      text-transform: uppercase;
-      border: none;
-      cursor: none;
-      position: relative;
+    /* ─── Places Marquee ─────────────────────────────────────────── */
+    #places {
+      background: var(--dark);
+      padding: 60px 0;
       overflow: hidden;
-      transition: background .3s;
     }
-    .btn-send::after {
-      content: '';
-      position: absolute; inset: 0;
-      background: var(--forest);
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform .4s cubic-bezier(.77,0,.175,1);
+    .marquee-label {
+      text-align: center;
+      font-size: .65rem;
+      letter-spacing: .28em;
+      text-transform: uppercase;
+      color: var(--muted);
+      opacity: .6;
+      margin-bottom: 28px;
     }
-    .btn-send:hover::after { transform: scaleX(1); }
-    .btn-send span { position: relative; z-index: 1; }
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marquee-ltr 28s linear infinite;
+    }
+    .marquee-track:hover { animation-play-state: paused; }
+    @keyframes marquee-ltr {
+      from { transform: translateX(-50%); }
+      to   { transform: translateX(0%); }
+    }
+    .marquee-row {
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+    .marquee-item {
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 3.5vw, 3rem);
+      font-weight: 300;
+      font-style: italic;
+      color: rgba(244,241,232,.18);
+      padding: 0 32px;
+      transition: color .3s;
+    }
+    .marquee-item:hover { color: rgba(244,241,232,.85); }
+    .marquee-item.highlight { color: var(--muted); font-style: normal; }
+    .marquee-sep {
+      color: var(--accent);
+      font-size: 1rem;
+      opacity: .5;
+      padding: 0 4px;
+      flex-shrink: 0;
+    }
 
     /* ─── Footer ─────────────────────────────────────────────────── */
     footer {
@@ -713,7 +693,7 @@
     <span class="nav-divider">/</span>
     <a href="#about">About</a>
     <span class="nav-divider">/</span>
-    <a href="#contact">Contact</a>
+    <a href="#places">Places</a>
   </div>
   <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
     <span></span><span></span>
@@ -724,7 +704,7 @@
 <div id="mobile-menu">
   <a href="#work" onclick="closeMenu()">Treks</a>
   <a href="#about" onclick="closeMenu()">About</a>
-  <a href="#contact" onclick="closeMenu()">Contact</a>
+  <a href="#places" onclick="closeMenu()">Places</a>
   <div class="menu-footer">swati.choudhary@gmail.com</div>
 </div>
 
@@ -881,38 +861,11 @@
   </div>
 </section>
 
-<!-- Contact -->
-<section id="contact">
-  <div class="section-label reveal">Get in touch</div>
-  <div class="contact-inner">
-    <div>
-      <h2 class="contact-cta reveal">
-        Walk the<br/>sacred paths<br/><em>with me</em>.
-      </h2>
-      <p style="margin-top:24px; opacity:.55; font-size:.9rem; line-height:1.7;" class="reveal reveal-delay-1">
-        Open to trek planning, pilgrim partnerships,<br/>
-        route advice for Panch Kedar &amp; Panch Kailash,<br/>
-        and sharing stories from Dev Bhoomi.
-      </p>
-      <p style="margin-top:20px; font-size:.8rem; letter-spacing:.12em; opacity:.4; text-transform:uppercase;" class="reveal reveal-delay-2">
-        swati.choudhary@gmail.com
-      </p>
-    </div>
-    <form class="contact-form reveal reveal-delay-1" onsubmit="handleSubmit(event)">
-      <div class="form-field">
-        <label>Your Name</label>
-        <input type="text" placeholder="Riya Sharma" required />
-      </div>
-      <div class="form-field">
-        <label>Email</label>
-        <input type="email" placeholder="riya@example.com" required />
-      </div>
-      <div class="form-field">
-        <label>Message</label>
-        <textarea placeholder="Which shrine or trail are you drawn to?..." rows="4"></textarea>
-      </div>
-      <button class="btn-send" type="submit"><span>Send Message</span></button>
-    </form>
+<!-- Places Marquee -->
+<section id="places">
+  <div class="marquee-label">Sacred places · Uttarakhand & beyond</div>
+  <div class="marquee-track" id="marqueeTrack">
+    <!-- Two identical rows for seamless loop — JS fills them -->
   </div>
 </section>
 
@@ -924,7 +877,7 @@
       <div class="footer-col-title">Navigate</div>
       <a href="#work">Treks</a>
       <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a href="#places">Places</a>
     </div>
     <div class="footer-col">
       <div class="footer-col-title">Connect</div>
@@ -1093,7 +1046,7 @@
   }
 
   /* ── Nav Active State on Scroll ── */
-  const sections = ['work','about','contact'];
+  const sections = ['work','about','places'];
   window.addEventListener('scroll', () => {
     const y = window.scrollY + 200;
     let active = 'work';
@@ -1106,13 +1059,46 @@
     });
   });
 
-  /* ── Contact Form ── */
-  function handleSubmit(e) {
-    e.preventDefault();
-    const btn = e.target.querySelector('.btn-send span');
-    btn.textContent = 'Sent ✓';
-    setTimeout(() => btn.textContent = 'Send Message', 3000);
+  /* ── Marquee ── */
+  const places = [
+    { name: 'Rudranath',         hl: false },
+    { name: 'Kedarnath',         hl: false },
+    { name: 'Tungnath',          hl: false },
+    { name: 'Madhyamaheshwar',   hl: false },
+    { name: 'Kalpeshwar',        hl: false },
+    { name: 'Adi Kailash',       hl: true  },
+    { name: 'Om Parvat',         hl: false },
+    { name: 'Shrikhand Mahadev', hl: false },
+    { name: 'Kinnaur Kailash',   hl: false },
+    { name: 'Mani Mahesh',       hl: false },
+    { name: 'Kartik Swami',      hl: true  },
+    { name: 'Vaishno Devi',      hl: false },
+    { name: 'Chamoli',           hl: false },
+    { name: 'Rudraprayag',       hl: false },
+    { name: 'Pithoragarh',       hl: false },
+    { name: 'Dev Bhoomi',        hl: true  },
+  ];
+
+  function buildRow() {
+    const row = document.createElement('div');
+    row.className = 'marquee-row';
+    places.forEach((p, i) => {
+      const span = document.createElement('span');
+      span.className = 'marquee-item' + (p.hl ? ' highlight' : '');
+      span.textContent = p.name;
+      row.appendChild(span);
+      const sep = document.createElement('span');
+      sep.className = 'marquee-sep';
+      sep.textContent = '·';
+      row.appendChild(sep);
+    });
+    return row;
   }
+
+  const track = document.getElementById('marqueeTrack');
+  // Two identical rows — second one makes the loop seamless
+  track.appendChild(buildRow());
+  track.appendChild(buildRow());
 </script>
 </body>
 </html>
