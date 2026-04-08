@@ -705,7 +705,7 @@
   <a href="#work" onclick="closeMenu()">Treks</a>
   <a href="#about" onclick="closeMenu()">About</a>
   <a href="#places" onclick="closeMenu()">Places</a>
-  <div class="menu-footer">swati.choudhary@gmail.com</div>
+  <div class="menu-footer">swati.chaudhary@gmail.com</div>
 </div>
 
 <!-- Hero -->
